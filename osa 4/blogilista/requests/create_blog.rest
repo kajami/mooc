@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pa2tvbG9naW4iLCJpZCI6IjYyNGFiOTlmZDk5ZTk3NDI4NTFhNTUyZCIsImlhdCI6MTY0OTA2NzUyNX0.pypeuriyPEN18B5dDkkWWaBL2p_QrHpWN1z2Z9p4lc4
+
+{
+    "title": "Toimiiko idn ja tokenin kanssa",
+    "author": "Mikko",
+    "url": "www.toimiiko.com",
+    "likes": 23,
+    "userId": "6246d491f2e05d0f15913e33"
+}
